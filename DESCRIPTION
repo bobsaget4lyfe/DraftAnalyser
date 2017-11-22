@@ -1,0 +1,25 @@
+Package: DotaDraftAnalyser
+Type: Package
+Title: Statistically analysing the draft of professional dota 2 matches
+Version: 1.0
+Date: 2017-11-20
+Author: Justin Dixon
+Maintainer: <justindixon91@gmail.com>
+Description: Takes drafts of professional dota 2 matches and analysis them. Stretch goal. To input live dota draft and output predictions.
+License: MIT
+URL: http://github.com/bobsaget4lyfe/DraftAnalyser
+BugReports: http://github.com/bobsaget4lyfe/DraftAnalyser/issues
+LazyData: TRUE
+Depends:
+  R (>= 3.4.2)
+Imports:
+  jsonlite,
+  assertthat,
+  sparklyr,
+  dplyr,
+  magrittr,
+  tidyverse,
+  DBI,
+  packrat,
+  devtools,
+  Rcpp

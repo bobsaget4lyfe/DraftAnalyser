@@ -1,0 +1,9 @@
+Google Rguide for code style:
+* file names end in R
+* identifiers: variableName, FunctionName, kConstantName
+* Line length: maximum 80 characers
+* indentation: two spaces never tab
+* Assignment <-, not =
+* Dont use semi colons
+* function errors should be dealth with stop
+* 
